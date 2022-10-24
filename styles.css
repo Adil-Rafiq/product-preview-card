@@ -119,6 +119,7 @@ button:hover {
 
     .image  {
         --flow-space: 0;
+        width: 180%;
     }
 
     .card .image img{
@@ -131,9 +132,14 @@ button:hover {
     }
 
     .product-details {
+        --flow-space: 2rem;
         max-width: 300px;
         padding: clamp(1.3em, 2vw, 5em);
         border-radius: 0 10px 10px 0;
+    }
+
+    .price-details {
+        --flow-space: 2rem;
     }
 
 }

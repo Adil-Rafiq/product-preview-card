@@ -9,15 +9,10 @@
   </head>
   <body>
     <div class="card">
-      <div class="image spacing">
-        <picture>
-          <source
-            media="(min-width: 38em)"
-            srcset="/image-product-desktop.jpg"
-          />
-          <img src="/image-product-mobile.jpg" alt="image" />
-        </picture>
-      </div>
+      <picture class="image spacing">
+        <source media="(min-width: 38em)" srcset="image-product-desktop.jpg" />
+        <img src="image-product-mobile.jpg" alt="image" />
+      </picture>
 
       <section class="product-details">
         <div class="heading spacing">
@@ -36,7 +31,7 @@
         </p>
         <div class="button">
           <button type="submit">
-            <img src="/icon-cart.svg" alt="cart" /> Add to Cart
+            <img src="icon-cart.svg" alt="cart" /> Add to Cart
           </button>
         </div>
       </section>
